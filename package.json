@@ -5,16 +5,16 @@
   "license": "MIT",
   "scripts": {
     "start": "electron .",
-    "build": "electron-packager . 'gTunes' --overwrite --icon=assets/icons/icons.icns"
+    "build": "electron-packager . 'Google Music Player' --overwrite --icon=assets/icons/icons.icns"
   },
   "build": {
-    "productName": "gTunes",
+    "productName": "Google Music Player",
     "fileAssociations": {
       "icon": "icons/icons.icns"
     }
   },
   "devDependencies": {
-    "electron": "^2.0.6",
-    "electron-packager": "^12.1.0"
+    "electron": "^7.1.7",
+    "electron-packager": "^14.1.1"
   }
 }
